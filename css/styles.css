@@ -72,7 +72,7 @@ body {
   transition: all 0.1s;
 }
 
-.nav__item:hover{
+.nav__item:hover {
   transform: scale(1.1);
 }
 
@@ -85,9 +85,6 @@ body {
   color: var(--color-primary);
   font-weight: 600;
 }
-
-
-
 
 .nav__toggler {
   cursor: pointer;
@@ -115,7 +112,6 @@ body {
 .nav__brand:hover {
   transform: scale(0.8);
 }
-
 
 @media screen and (min-width: 768px) {
   .navbar {
@@ -200,7 +196,6 @@ body {
   display: flex;
 }
 
-
 .hero__button1 {
   margin-right: 15px;
   background-color: var(--color-primary);
@@ -211,7 +206,7 @@ body {
   overflow: hidden;
 }
 
-.hero__button1::before{
+.hero__button1::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -223,7 +218,7 @@ body {
   transition: all 0.8s;
 }
 
-.hero__button1:hover::before{
+.hero__button1:hover::before {
   transform: translateX(100%) rotate(60deg);
 }
 
@@ -655,7 +650,7 @@ body {
   transition: all 0.5s;
 }
 
-.footer__icon:hover{
+.footer__icon:hover {
   transform: scale(0.8);
 }
 
@@ -779,7 +774,7 @@ body {
   transition: all 0.5s;
 }
 
-.footer__icon__contact:hover{
+.footer__icon__contact:hover {
   transform: scale(0.8);
 }
 

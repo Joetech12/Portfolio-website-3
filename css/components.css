@@ -210,6 +210,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .testimonial__image {
@@ -217,6 +218,9 @@ a {
   height: auto;
   text-align: center;
   margin-bottom: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 0px 5px var(--color-neutral), 0 0 0px 7px grey;
+  box
 }
 
 .testimonial__body {
@@ -225,6 +229,34 @@ a {
   width: 400px;
   height: auto;
   text-align: center;
+  
+}
+
+.testimonial__body::before{
+  content: "";
+  position: absolute;
+  background: url(/images/left-quote.png);
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: 0;
+}
+
+.body-container{
+  position: relative;
+}
+
+.quote{
+ width: 30px;
+ position: absolute;
+ left: -10px;
+ top: -30px;
+}
+.quote3{
+ width: 30px;
+ position: absolute;
+ left: -20px;
+ top: -30px;
 }
 
 .testimonial__author {

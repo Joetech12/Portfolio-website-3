@@ -343,6 +343,18 @@ body {
 .services--card {
   display: flex;
   flex-direction: column;
+  background-color: var(--color-neutral);
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 0 0 9px 2px rgb(119, 119, 119, 0.2);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services--card:hover{
+  box-shadow: 0 0 9px 10px rgb(119, 119, 119, 0.2);
 }
 
 .graphix-link {
@@ -373,11 +385,13 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 50px;
     text-align: center;
+    justify-content: center;
   }
   .services--card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 50px;
   }
 
   .services--block {
@@ -387,7 +401,7 @@ body {
 
   .services__heading {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
 

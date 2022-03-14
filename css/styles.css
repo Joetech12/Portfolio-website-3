@@ -49,6 +49,8 @@ body {
 
 .navbar {
   margin-top: 0;
+border-bottom: 2px solid rgb(214, 214, 214);
+padding: 0 0 10px 0;
 }
 
 .nav {
@@ -439,7 +441,8 @@ body {
 .client5,
 .client6,
 .client7,
-.client8 {
+.client8,
+.client9 {
   filter: grayscale(100%);
   transition: all 0.4s;
 }
@@ -451,7 +454,8 @@ body {
 .client5:hover,
 .client6:hover,
 .client7:hover,
-.client8:hover {
+.client8:hover, 
+.client9:hover {
   filter: grayscale(0%);
 }
 
@@ -463,12 +467,19 @@ body {
   max-width: 67px;
 }
 
+.client9 {
+  max-width: 100px;
+  display: none;
+}
+
 .clients__company {
   display: grid;
   grid-template-columns: 95px 80px 115px 170px 90px 140px 95px 70px;
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  text-align: center;
   border-top: 2px solid var(--color-primary-muted);
   border-bottom: 2px solid var(--color-primary-muted);
   padding: 70px 0;
@@ -480,12 +491,16 @@ body {
     grid-template-columns: 95px 80px 115px 170px 90px;
     grid-template-rows: 85px 67px;
     grid-gap: 70px 50px;
-
     justify-content: center;
     align-items: center;
     border-top: 2px solid var(--color-primary-muted);
     border-bottom: 2px solid var(--color-primary-muted);
     padding: 70px 0;
+  }
+
+  .client9 {
+    max-width: 100px;
+    display: block;
   }
 
   /* .client6{
@@ -642,6 +657,7 @@ body {
 .footer--block {
   --padding-vertical: 10rem;
   padding: var(--padding-vertical) 2rem 2rem;
+  background-color: rgb(219, 219, 219);
 }
 
 .footer {
@@ -662,6 +678,7 @@ body {
   margin-left: 10px;
   transform: scale(1);
   transition: all 0.5s;
+  color: white;
 }
 
 .footer__icon:hover {

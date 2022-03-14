@@ -220,7 +220,12 @@ a {
   margin-bottom: 30px;
   border-radius: 50%;
   box-shadow: 0 0 0px 5px var(--color-neutral), 0 0 0px 7px grey;
-  box
+  transform: scale(1);
+  transition: all 0.3s;
+}
+
+.testimonial__image:hover{
+  transform: scale(1.1);
 }
 
 .testimonial__body {

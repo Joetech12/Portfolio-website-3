@@ -47,14 +47,25 @@ body {
 
 /* Navigation Bar */
 
+.header-wave{
+  height: 200px;
+  z-index: -99;
+  position: relative;
+  transform: translateY(-143px);
+  opacity: 0.5;
+}
+
 .navbar {
   margin-top: 0;
-border-bottom: 2px solid rgb(214, 214, 214);
+/* border-bottom: 2px solid rgb(214, 214, 214); */
 padding: 0 0 10px 0;
+position: relative;
+transform: translateY(0px);
+background-color: #ebe8e8;
 }
 
 .nav {
-  background: var(--color-neutral);
+  background: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -117,7 +128,7 @@ padding: 0 0 10px 0;
 
 @media screen and (min-width: 768px) {
   .navbar {
-    margin-top: 1rem;
+    padding-top: 1rem;
   }
 
   .nav__toggler {
@@ -155,6 +166,7 @@ padding: 0 0 10px 0;
 .hero--block {
   --padding-vertical: 10rem;
   padding: var(--padding-vertical) 2rem;
+  margin-top: -150px;
 }
 
 .hero {
@@ -657,7 +669,6 @@ padding: 0 0 10px 0;
 .footer--block {
   --padding-vertical: 10rem;
   padding: 0 0rem 0rem;
-  background-color: rgb(219, 219, 219);
 }
 
 .footer-wave{

@@ -251,7 +251,14 @@ a {
   position: relative;
 }
 
-.quote{
+.quote1{
+ width: 30px;
+ position: absolute;
+ left: -10px;
+ top: -30px;
+}
+
+.quote2{
  width: 30px;
  position: absolute;
  left: -10px;
@@ -299,6 +306,21 @@ a {
     margin-bottom: 20px;
     font-weight: 400;
   }
+
+  .quote1{
+    width: 30px;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+   }
+   
+   .quote2{
+    width: 30px;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+   }
+
 }
 @media screen and (max-width: 240px) {
   .testimonial__body {

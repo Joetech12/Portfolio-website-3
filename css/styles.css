@@ -757,6 +757,7 @@ body {
 .hero--block__contact {
   --padding-vertical: 100px;
   padding: var(--padding-vertical) 20px;
+  margin-top: -100px;
 }
 
 .hero__contact {

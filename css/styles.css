@@ -338,7 +338,7 @@ body {
 /* Services */
 
 .services--block {
-  --padding-vertical: 10rem;
+  --padding-vertical: 5rem;
   padding: var(--padding-vertical) 2rem;
   /* background-color: #f1f1f1;
   clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%); */
@@ -442,7 +442,7 @@ body {
 
 /* Clients */
 .clients--block {
-  --padding-vertical: 10rem;
+  --padding-vertical: 5rem;
   padding: var(--padding-vertical) 2rem;
   /* background-color: #f3f3f3; */
 }
@@ -511,10 +511,8 @@ body {
   display: grid;
   grid-template-columns: 95px 80px 115px 170px 90px 140px 95px 70px;
   grid-gap: 20px;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
-  text-align: center;
-  text-align: center;
   border-top: 2px solid var(--color-primary-muted);
   border-bottom: 2px solid var(--color-primary-muted);
   padding: 70px 0;
@@ -622,13 +620,13 @@ body {
 
 /* Projects */
 .projects--block {
-  --padding-vertical: 10rem;
+  --padding-vertical: 5rem;
   padding: var(--padding-vertical) 2rem;
 }
 
 .projects__heading {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .projects {
@@ -652,7 +650,7 @@ body {
 /* Reviews */
 
 .reviews--block {
-  --padding-vertical: 10rem;
+  --padding-vertical: 9rem;
   padding: var(--padding-vertical) 2rem;
   /* background-color: #f1f1f1;
   clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 95%); */
@@ -660,7 +658,7 @@ body {
 
 .reviews__heading {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .reviews {
